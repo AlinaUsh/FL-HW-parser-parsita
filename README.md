@@ -18,5 +18,5 @@ pip install parsita
 
 Чтобы запустить парсер для файла filename с ключом --key:
 ```
-  python3 my_parser.py --key filename
+  python3 parser.py --key filename
 ```
