@@ -1,0 +1,43 @@
+module example.
+
+type name A -> B -> C.
+type name (A -> B -> C).
+
+type name A -> (B -> C).
+type name (A) -> (((B) -> C)).
+
+type name (A -> B) -> C.
+type name ((A -> B)) -> (((((C))))).
+
+type filter (A -> o) -> list A -> list A -> o.
+type fruit string -> o.
+type filter a.
+type filter string -> list A.
+type filter (A -> (A -> A -> (AAAAA -> list A) -> (x x))) -> o.
+
+f:-a.
+f :- g, (h; t).
+f A ((B)) C c:- g, (h; t h ((g(t)))).
+f (c h t) :- g h, f t.
+a (b c) :- x, y, z.
+a b C.
+a (b C) (((d E))) f.
+a (b C) D E F.
+a ((A)) b :-
+        a (b (c)).
+x:-x a (q) b a (b C).
+a((b c))(d) a ((b  c) )  ( d ) g [X] Y :- f [X|Y] ; (x [] , z).
+g [X] Y :- f [XXXXxxxxx|Y] ; (x y , z).
+a ((((b))))
+
+
+                    :- g.
+f :- g, h; t.
+f :- g, (h; t).
+f a :- g, h (t c d).
+f (cons h t) :- g h, f [a (b c), d, Z].
+f [[X, [H | T]] | Z].
+g [X] Y :- f X [a (b c) | T].
+
+c a b.
+c (a (b)).

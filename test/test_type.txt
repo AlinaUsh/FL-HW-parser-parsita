@@ -1,0 +1,1 @@
+type filter (A -> o) -> list A -> list A -> o.
